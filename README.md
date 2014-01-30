@@ -14,7 +14,7 @@ $ sudo docker pull swordphilic/jenkins
 Run the container:
 
 ```sh
-$ sudo docker run -h -p 8080:8080 -d swordphilic/jenkins
+$ sudo docker run -p 8080:8080 -d swordphilic/jenkins
 ```
 
 Jenkins will be available on the host machine at port 8080. 
