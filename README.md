@@ -25,9 +25,3 @@ List all running containers:
 ```sh
 $sudo docker ps
 ```
-
-Shutting down the container:
-
-```sh
-$ sudo docker kill <container_id>
-```
