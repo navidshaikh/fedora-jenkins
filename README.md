@@ -5,7 +5,7 @@
 ### Installation
 
 ```sh
-$ sudo docker pull swordphilic/jenkins
+$ sudo docker pull swordphilic/fedora-jenkins
 ```
 
 ### Usage
@@ -13,7 +13,7 @@ i
 Run the container:
 
 ```sh
-$ sudo docker run -p 8080:8080 -d swordphilic/jenkins
+$ sudo docker run -p 8080:8080 -d swordphilic/fedora-jenkins
 ```
 
 Jenkins will be available on the host machine at port 8080.
